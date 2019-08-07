@@ -1,0 +1,33 @@
+---
+  title: "_%TITLE%_"
+author: "_%AUTHOR%_"
+date: "_%DATE%_"
+output: powerpoint_presentation
+---
+
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown (PPT Edition)
+
+
+
+## Example Slide - Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Example Slide - R Result
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Example Slide - R Plot
+
+```{r pressure}
+plot(pressure)
+```
+
